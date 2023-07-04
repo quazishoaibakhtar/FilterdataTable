@@ -199,7 +199,7 @@ const Data = () => {
 
   useEffect(() => {
     const result = infoCountries.filter((row) => {
-      return row.name.match(search);
+      return row.name.toLowerCase().match(search.toLowerCase());
     });
     setfilterinfoCountries(result);
   }, [search]);
