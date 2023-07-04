@@ -1,0 +1,17 @@
+
+
+.input {
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 1200px;
+
+}
+
+.edit-btn {
+  width: 70px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 50%;
+}
